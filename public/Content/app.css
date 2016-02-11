@@ -2,6 +2,8 @@
 
 #main-container {
     margin: 0 auto;
+    margin-top: -2em;
+    margin-bottom: -1.5em;
     text-align: left;
     width: 500em;
 }
@@ -21,4 +23,8 @@
     margin: 0 auto;
     text-align: left;
     width: 400px;
+}
+
+#left-feature {
+    margin-left: 1em;
 }
