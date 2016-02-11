@@ -1,11 +1,9 @@
 /* custom css file */
 
 #main-container {
-    margin: 0 auto;
     margin-top: -2em;
     margin-bottom: -1.5em;
-    text-align: left;
-    width: 500em;
+    margin-left: 50px;
 }
 
 #header-text {
