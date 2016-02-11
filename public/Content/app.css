@@ -1,8 +1,9 @@
 /* custom css file */
 
 #main-container {
-    margin-top: -1em;
-    margin-left: .5em;
+    margin: 0 auto;
+    text-align: left;
+    width: 500em;
 }
 
 #header-text {
@@ -13,7 +14,7 @@
 #contact-head {
     margin: 0 auto;
     text-align: left;
-    width: 400px;
+    width: 225px;
 }
 
 #contact-head-text {

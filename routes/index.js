@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 /* MAIN PAGES */
-/* GET home page */
+/* GET index page */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Robert Reynolds' });
 });
@@ -19,7 +19,7 @@ router.get('/projects', function(req, res, next) {
 
 /* GET services page */
 router.get('/services', function(req, res, next) {
-  res.render('index', { title: 'Projects' });
+  res.render('index', { title: 'Services' });
 });
 
 /* Get contact page */
