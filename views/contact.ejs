@@ -2,28 +2,33 @@
 
     <!-- Main Content -->
     <main class="container">
-        <h1><%= title %></h1>
-        <p>Welcome to
-            <%= title %>
-        </p>
+        <div id="contact-head">
+            <h1><%= title %></h1>
+        </div>
+        <div id="contact-head-text">
+            <p>Email me with any questions or inquiries or call 705-323-2076</p>
+        </div>
         <form>
             <div class="form-group">
+                <label for="nameInput">Name</label>
+                <input class="form-control" id="nameInput" placeholder="Name">
+            </div>
+            <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                <input type="email" class="form-control" id="emailInput" placeholder="Email">
+                <p class="help-block">Please make sure you use a valid email address so that I can get back to you!</p>
             </div>
             <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <label for="content">Subject</label>
+                <textarea class="form-control" rows="1" placeholder="Subject Line"></textarea>
             </div>
             <div class="form-group">
-                <label for="exampleInputFile">File input</label>
-                <input type="file" id="exampleInputFile">
-                <p class="help-block">Example block-level help text here.</p>
+                <label for="content">Message</label>
+                <textarea class="form-control" rows="3" placeholder="Message"></textarea>
             </div>
             <div class="checkbox">
                 <label>
-                    <input type="checkbox"> Check me out
-                </label>
+                    <input type="checkbox">Send me a copied email</label>
             </div>
             <button type="submit" class="btn btn-default">Submit</button>
         </form>
